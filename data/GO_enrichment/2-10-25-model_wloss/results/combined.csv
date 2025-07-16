@@ -1,0 +1,121 @@
+go_id,name,in_ref,in_set,expected,+/-,fold_enrichment,pval,FDR,annotation_set,GO_term,GO_ID
+GO:0046037,GMP metabolic process (GO:0046037),7,5,0.74,+,6.79,0.00022200000000000003,0.0204,biological_process,GMP metabolic process,GO:0046037
+GO:0006177,GMP biosynthetic process (GO:0006177),7,5,0.74,+,6.79,0.00022200000000000003,0.02,biological_process,GMP biosynthetic process,GO:0006177
+GO:0045862,positive regulation of proteolysis (GO:0045862),11,6,1.16,+,5.18,0.000383,0.0273,biological_process,positive regulation of proteolysis,GO:0045862
+GO:0051085,chaperone cofactor-dependent protein refolding (GO:0051085),11,6,1.16,+,5.18,0.000383,0.0269,biological_process,chaperone cofactor-dependent protein refolding,GO:0051085
+GO:0051084,'de novo' post-translational protein folding (GO:0051084),19,9,2.0,+,4.5,5.16e-05,0.007490000000000001,biological_process,'de novo' post-translational protein folding,GO:0051084
+GO:0030162,regulation of proteolysis (GO:0030162),19,8,2.0,+,4.0,0.00037400000000000004,0.0272,biological_process,regulation of proteolysis,GO:0030162
+GO:0006458,'de novo' protein folding (GO:0006458),27,11,2.84,+,3.87,4.23e-05,0.00657,biological_process,'de novo' protein folding,GO:0006458
+GO:0006418,tRNA aminoacylation for protein translation (GO:0006418),37,15,3.89,+,3.85,1.8e-06,0.0008119999999999999,biological_process,tRNA aminoacylation for protein translation,GO:0006418
+GO:0006090,pyruvate metabolic process (GO:0006090),23,9,2.42,+,3.72,0.00031,0.0249,biological_process,pyruvate metabolic process,GO:0006090
+GO:0043039,tRNA aminoacylation (GO:0043039),40,15,4.21,+,3.56,5.74e-06,0.00161,biological_process,tRNA aminoacylation,GO:0043039
+GO:0043038,amino acid activation (GO:0043038),40,15,4.21,+,3.56,5.74e-06,0.0015199999999999999,biological_process,amino acid activation,GO:0043038
+GO:0034308,primary alcohol metabolic process (GO:0034308),25,9,2.63,+,3.42,0.0006389999999999999,0.0369,biological_process,primary alcohol metabolic process,GO:0034308
+GO:0042026,protein refolding (GO:0042026),25,9,2.63,+,3.42,0.0006389999999999999,0.0364,biological_process,protein refolding,GO:0042026
+GO:0045047,protein targeting to ER (GO:0045047),31,11,3.26,+,3.37,0.00018600000000000002,0.0178,biological_process,protein targeting to ER,GO:0045047
+GO:0015695,organic cation transport (GO:0015695),37,13,3.89,+,3.34,5.44e-05,0.00765,biological_process,organic cation transport,GO:0015695
+GO:0061077,chaperone-mediated protein folding (GO:0061077),26,9,2.74,+,3.29,0.0008880000000000001,0.0444,biological_process,chaperone-mediated protein folding,GO:0061077
+GO:0009152,purine ribonucleotide biosynthetic process (GO:0009152),30,10,3.16,+,3.17,0.0006490000000000001,0.0365,biological_process,purine ribonucleotide biosynthetic process,GO:0009152
+GO:0072599,establishment of protein localization to endoplasmic reticulum (GO:0072599),33,11,3.47,+,3.17,0.000349,0.0271,biological_process,establishment of protein localization to endoplasmic reticulum,GO:0072599
+GO:1905039,carboxylic acid transmembrane transport (GO:1905039),44,14,4.63,+,3.02,9.82e-05,0.0116,biological_process,carboxylic acid transmembrane transport,GO:1905039
+GO:0009150,purine ribonucleotide metabolic process (GO:0009150),45,14,4.73,+,2.96,0.000129,0.0135,biological_process,purine ribonucleotide metabolic process,GO:0009150
+GO:1903825,organic acid transmembrane transport (GO:1903825),46,14,4.84,+,2.89,0.000168,0.0164,biological_process,organic acid transmembrane transport,GO:1903825
+GO:0009260,ribonucleotide biosynthetic process (GO:0009260),43,13,4.52,+,2.87,0.000309,0.0253,biological_process,ribonucleotide biosynthetic process,GO:0009260
+GO:1990542,mitochondrial transmembrane transport (GO:1990542),59,17,6.21,+,2.74,7.390000000000001e-05,0.00979,biological_process,mitochondrial transmembrane transport,GO:1990542
+GO:0009259,ribonucleotide metabolic process (GO:0009259),59,17,6.21,+,2.74,7.390000000000001e-05,0.00951,biological_process,ribonucleotide metabolic process,GO:0009259
+GO:0046390,ribose phosphate biosynthetic process (GO:0046390),49,14,5.16,+,2.72,0.00035099999999999997,0.0268,biological_process,ribose phosphate biosynthetic process,GO:0046390
+GO:0070972,protein localization to endoplasmic reticulum (GO:0070972),46,13,4.84,+,2.69,0.0006389999999999999,0.0373,biological_process,protein localization to endoplasmic reticulum,GO:0070972
+GO:0046942,carboxylic acid transport (GO:0046942),75,21,7.89,+,2.66,1.73e-05,0.0035399999999999997,biological_process,carboxylic acid transport,GO:0046942
+GO:0015849,organic acid transport (GO:0015849),77,21,8.1,+,2.59,2.68e-05,0.00483,biological_process,organic acid transport,GO:0015849
+GO:0019693,ribose phosphate metabolic process (GO:0019693),66,18,6.94,+,2.59,0.000101,0.0116,biological_process,ribose phosphate metabolic process,GO:0019693
+GO:0006865,amino acid transport (GO:0006865),56,15,5.89,+,2.55,0.00047000000000000004,0.0307,biological_process,amino acid transport,GO:0006865
+GO:0046165,alcohol biosynthetic process (GO:0046165),61,16,6.42,+,2.49,0.000397,0.0275,biological_process,alcohol biosynthetic process,GO:0046165
+GO:0000462,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA) (GO:0000462)",65,17,6.84,+,2.49,0.000273,0.0232,biological_process,"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",GO:0000462
+GO:0071806,protein transmembrane transport (GO:0071806),65,17,6.84,+,2.49,0.000273,0.0228,biological_process,protein transmembrane transport,GO:0071806
+GO:0006163,purine nucleotide metabolic process (GO:0006163),99,25,10.42,+,2.4,2.01e-05,0.0037700000000000003,biological_process,purine nucleotide metabolic process,GO:0006163
+GO:0006839,mitochondrial transport (GO:0006839),72,18,7.58,+,2.38,0.000334,0.0264,biological_process,mitochondrial transport,GO:0006839
+GO:0045333,cellular respiration (GO:0045333),68,17,7.15,+,2.38,0.000487,0.0304,biological_process,cellular respiration,GO:0045333
+GO:0006066,alcohol metabolic process (GO:0006066),105,26,11.05,+,2.35,2.7399999999999995e-05,0.00474,biological_process,alcohol metabolic process,GO:0006066
+GO:0006457,protein folding (GO:0006457),106,26,11.15,+,2.33,3.05e-05,0.00509,biological_process,protein folding,GO:0006457
+GO:0006412,translation (GO:0006412),193,47,20.31,+,2.31,2.15e-08,1.93e-05,biological_process,translation,GO:0006412
+GO:0072521,purine-containing compound metabolic process (GO:0072521),143,34,15.05,+,2.26,4.58e-06,0.00147,biological_process,purine-containing compound metabolic process,GO:0072521
+GO:0015711,organic anion transport (GO:0015711),115,26,12.1,+,2.15,0.00014199999999999998,0.0145,biological_process,organic anion transport,GO:0015711
+GO:0009117,nucleotide metabolic process (GO:0009117),139,31,14.63,+,2.12,3.3600000000000004e-05,0.0054,biological_process,nucleotide metabolic process,GO:0009117
+GO:0006753,nucleoside phosphate metabolic process (GO:0006753),189,41,19.89,+,2.06,4.45e-06,0.0015400000000000001,biological_process,nucleoside phosphate metabolic process,GO:0006753
+GO:0140053,mitochondrial gene expression (GO:0140053),120,26,12.63,+,2.06,0.00024300000000000002,0.0211,biological_process,mitochondrial gene expression,GO:0140053
+GO:0006091,generation of precursor metabolites and energy (GO:0006091),136,29,14.31,+,2.03,0.000164,0.0164,biological_process,generation of precursor metabolites and energy,GO:0006091
+GO:0055085,transmembrane transport (GO:0055085),397,84,41.77,+,2.01,5.33e-11,1.2e-07,biological_process,transmembrane transport,GO:0055085
+GO:0055086,nucleobase-containing small molecule metabolic process (GO:0055086),203,42,21.36,+,1.97,1.0800000000000002e-05,0.00243,biological_process,nucleobase-containing small molecule metabolic process,GO:0055086
+GO:0006520,amino acid metabolic process (GO:0006520),206,42,21.67,+,1.94,2e-05,0.00391,biological_process,amino acid metabolic process,GO:0006520
+GO:1901615,organic hydroxy compound metabolic process (GO:1901615),140,28,14.73,+,1.9,0.000656,0.0364,biological_process,organic hydroxy compound metabolic process,GO:1901615
+GO:0044283,small molecule biosynthetic process (GO:0044283),270,53,28.41,+,1.87,4.77e-06,0.00143,biological_process,small molecule biosynthetic process,GO:0044283
+GO:0044281,small molecule metabolic process (GO:0044281),608,104,63.97,+,1.63,1.12e-07,8.43e-05,biological_process,small molecule metabolic process,GO:0044281
+GO:0019637,organophosphate metabolic process (GO:0019637),347,59,36.51,+,1.62,0.000118,0.013,biological_process,organophosphate metabolic process,GO:0019637
+GO:0019752,carboxylic acid metabolic process (GO:0019752),293,49,30.83,+,1.59,0.000754,0.0414,biological_process,carboxylic acid metabolic process,GO:0019752
+GO:0006796,phosphate-containing compound metabolic process (GO:0006796),377,62,39.67,+,1.56,0.00021400000000000002,0.02,biological_process,phosphate-containing compound metabolic process,GO:0006796
+GO:0006793,phosphorus metabolic process (GO:0006793),389,62,40.93,+,1.51,0.000521,0.0321,biological_process,phosphorus metabolic process,GO:0006793
+GO:0009058,biosynthetic process (GO:0009058),1655,242,174.13,+,1.39,2.45e-11,1.1e-07,biological_process,biosynthetic process,GO:0009058
+GO:0019538,protein metabolic process (GO:0019538),829,119,87.22,+,1.36,0.000127,0.0137,biological_process,protein metabolic process,GO:0019538
+GO:0010467,gene expression (GO:0010467),1023,143,107.64,+,1.33,7.85e-05,0.00982,biological_process,gene expression,GO:0010467
+GO:0006810,transport (GO:0006810),1074,145,113.0,+,1.28,0.00040599999999999995,0.0273,biological_process,transport,GO:0006810
+GO:0009059,macromolecule biosynthetic process (GO:0009059),1190,157,125.21,+,1.25,0.000638,0.0378,biological_process,macromolecule biosynthetic process,GO:0009059
+GO:0044238,primary metabolic process (GO:0044238),2360,294,248.31,+,1.18,1.0199999999999999e-05,0.0024,biological_process,primary metabolic process,GO:0044238
+GO:0008152,metabolic process (GO:0008152),2697,333,283.77,+,1.17,1.02e-06,0.000572,biological_process,metabolic process,GO:0008152
+GO:0009987,cellular process (GO:0009987),4002,452,421.08,+,1.07,6.84e-07,0.00044,biological_process,cellular process,GO:0009987
+GO:0042645,mitochondrial nucleoid (GO:0042645),20,8,2.1,+,3.8,0.000567,0.0492,cellular_component,mitochondrial nucleoid,GO:0042645
+GO:0009295,nucleoid (GO:0009295),20,8,2.1,+,3.8,0.000567,0.0451,cellular_component,nucleoid,GO:0009295
+GO:0030686,90S preribosome (GO:0030686),64,17,6.73,+,2.52,0.000223,0.0304,cellular_component,90S preribosome,GO:0030686
+GO:0005758,mitochondrial intermembrane space (GO:0005758),63,16,6.63,+,2.41,0.000588,0.0431,cellular_component,mitochondrial intermembrane space,GO:0005758
+GO:0030684,preribosome (GO:0030684),120,27,12.63,+,2.14,0.000106,0.0169,cellular_component,preribosome,GO:0030684
+GO:0005743,mitochondrial inner membrane (GO:0005743),192,37,20.2,+,1.83,0.00025,0.0298,cellular_component,mitochondrial inner membrane,GO:0005743
+GO:0019866,organelle inner membrane (GO:0019866),206,38,21.67,+,1.75,0.00042699999999999997,0.0408,cellular_component,organelle inner membrane,GO:0019866
+GO:0005759,mitochondrial matrix (GO:0005759),208,38,21.89,+,1.74,0.000684,0.0435,cellular_component,mitochondrial matrix,GO:0005759
+GO:0005730,nucleolus (GO:0005730),247,43,25.99,+,1.65,0.0008410000000000001,0.0472,cellular_component,nucleolus,GO:0005730
+GO:1990904,ribonucleoprotein complex (GO:1990904),326,55,34.3,+,1.6,0.000331,0.035,cellular_component,ribonucleoprotein complex,GO:1990904
+GO:0005740,mitochondrial envelope (GO:0005740),344,56,36.19,+,1.55,0.000662,0.0451,cellular_component,mitochondrial envelope,GO:0005740
+GO:0070013,intracellular organelle lumen (GO:0070013),832,125,87.54,+,1.43,8.17e-06,0.0039,cellular_component,intracellular organelle lumen,GO:0070013
+GO:0031974,membrane-enclosed lumen (GO:0031974),832,125,87.54,+,1.43,8.17e-06,0.0026,cellular_component,membrane-enclosed lumen,GO:0031974
+GO:0043233,organelle lumen (GO:0043233),832,125,87.54,+,1.43,8.17e-06,0.00195,cellular_component,organelle lumen,GO:0043233
+GO:0005739,mitochondrion (GO:0005739),958,141,100.8,+,1.4,4.56e-06,0.00435,cellular_component,mitochondrion,GO:0005739
+GO:0033592,RNA strand annealing activity (GO:0033592),5,4,0.53,+,7.6,0.0005549999999999999,0.0323,molecular_function,RNA strand annealing activity,GO:0033592
+GO:1990825,sequence-specific mRNA binding (GO:1990825),20,11,2.1,+,5.23,1.09e-06,0.000556,molecular_function,sequence-specific mRNA binding,GO:1990825
+GO:0001054,RNA polymerase I activity (GO:0001054),12,6,1.26,+,4.75,0.000698,0.038,molecular_function,RNA polymerase I activity,GO:0001054
+GO:0140662,ATP-dependent protein folding chaperone (GO:0140662),21,9,2.21,+,4.07,0.000135,0.0112,molecular_function,ATP-dependent protein folding chaperone,GO:0140662
+GO:0016875,"ligase activity, forming carbon-oxygen bonds (GO:0016875)",37,14,3.89,+,3.6,1.05e-05,0.00206,molecular_function,"ligase activity, forming carbon-oxygen bonds",GO:0016875
+GO:0004812,aminoacyl-tRNA ligase activity (GO:0004812),37,14,3.89,+,3.6,1.05e-05,0.0019100000000000002,molecular_function,aminoacyl-tRNA ligase activity,GO:0004812
+GO:0015101,organic cation transmembrane transporter activity (GO:0015101),34,11,3.58,+,3.07,0.000468,0.0285,molecular_function,organic cation transmembrane transporter activity,GO:0015101
+GO:0046943,carboxylic acid transmembrane transporter activity (GO:0046943),60,17,6.31,+,2.69,9.329999999999999e-05,0.00823,molecular_function,carboxylic acid transmembrane transporter activity,GO:0046943
+GO:0005342,organic acid transmembrane transporter activity (GO:0005342),62,17,6.52,+,2.61,0.000146,0.0117,molecular_function,organic acid transmembrane transporter activity,GO:0005342
+GO:0015399,primary active transmembrane transporter activity (GO:0015399),55,15,5.79,+,2.59,0.00037999999999999997,0.0243,molecular_function,primary active transmembrane transporter activity,GO:0015399
+GO:0008514,organic anion transmembrane transporter activity (GO:0008514),78,21,8.21,+,2.56,3.32e-05,0.00424,molecular_function,organic anion transmembrane transporter activity,GO:0008514
+GO:0015078,proton transmembrane transporter activity (GO:0015078),60,16,6.31,+,2.53,0.000324,0.0212,molecular_function,proton transmembrane transporter activity,GO:0015078
+GO:0016874,ligase activity (GO:0016874),109,29,11.47,+,2.53,1.38e-06,0.000391,molecular_function,ligase activity,GO:0016874
+GO:0016616,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0016616)",76,20,8.0,+,2.5,7.28e-05,0.00689,molecular_function,"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",GO:0016616
+GO:0016614,"oxidoreductase activity, acting on CH-OH group of donors (GO:0016614)",81,21,8.52,+,2.46,6.12e-05,0.006520000000000001,molecular_function,"oxidoreductase activity, acting on CH-OH group of donors",GO:0016614
+GO:0051082,unfolded protein binding (GO:0051082),63,16,6.63,+,2.41,0.000588,0.0334,molecular_function,unfolded protein binding,GO:0051082
+GO:0022853,active monoatomic ion transmembrane transporter activity (GO:0022853),71,18,7.47,+,2.41,0.000277,0.0197,molecular_function,active monoatomic ion transmembrane transporter activity,GO:0022853
+GO:0022890,inorganic cation transmembrane transporter activity (GO:0022890),116,28,12.21,+,2.29,1.82e-05,0.0029100000000000003,molecular_function,inorganic cation transmembrane transporter activity,GO:0022890
+GO:0016491,oxidoreductase activity (GO:0016491),278,65,29.25,+,2.22,1.25e-10,3.2e-07,molecular_function,oxidoreductase activity,GO:0016491
+GO:0008324,monoatomic cation transmembrane transporter activity (GO:0008324),120,28,12.63,+,2.22,5.22e-05,0.0058,molecular_function,monoatomic cation transmembrane transporter activity,GO:0008324
+GO:0015075,monoatomic ion transmembrane transporter activity (GO:0015075),128,29,13.47,+,2.15,4.98e-05,0.00579,molecular_function,monoatomic ion transmembrane transporter activity,GO:0015075
+GO:0022804,active transmembrane transporter activity (GO:0022804),138,31,14.52,+,2.13,2.9600000000000005e-05,0.00398,molecular_function,active transmembrane transporter activity,GO:0022804
+GO:0015318,inorganic molecular entity transmembrane transporter activity (GO:0015318),141,31,14.84,+,2.09,6.12e-05,0.00626,molecular_function,inorganic molecular entity transmembrane transporter activity,GO:0015318
+GO:0022857,transmembrane transporter activity (GO:0022857),337,70,35.46,+,1.97,9.150000000000001e-09,1.17e-05,molecular_function,transmembrane transporter activity,GO:0022857
+GO:0003729,mRNA binding (GO:0003729),208,42,21.89,+,1.92,2.26e-05,0.00321,molecular_function,mRNA binding,GO:0003729
+GO:0005215,transporter activity (GO:0005215),373,74,39.25,+,1.89,1.86e-08,1.58e-05,molecular_function,transporter activity,GO:0005215
+GO:0016887,ATP hydrolysis activity (GO:0016887),228,42,23.99,+,1.75,0.00021899999999999998,0.0165,molecular_function,ATP hydrolysis activity,GO:0016887
+GO:0140657,ATP-dependent activity (GO:0140657),299,52,31.46,+,1.65,0.000185,0.0143,molecular_function,ATP-dependent activity,GO:0140657
+GO:0017111,ribonucleoside triphosphate phosphatase activity (GO:0017111),303,52,31.88,+,1.63,0.000296,0.0204,molecular_function,ribonucleoside triphosphate phosphatase activity,GO:0017111
+GO:0032553,ribonucleotide binding (GO:0032553),712,111,74.91,+,1.48,5.37e-06,0.00137,molecular_function,ribonucleotide binding,GO:0032553
+GO:0000166,nucleotide binding (GO:0000166),799,124,84.07,+,1.47,1.22e-06,0.00044699999999999997,molecular_function,nucleotide binding,GO:0000166
+GO:1901265,nucleoside phosphate binding (GO:1901265),799,124,84.07,+,1.47,1.22e-06,0.000391,molecular_function,nucleoside phosphate binding,GO:1901265
+GO:0097367,carbohydrate derivative binding (GO:0097367),722,112,75.97,+,1.47,6.08e-06,0.0013,molecular_function,carbohydrate derivative binding,GO:0097367
+GO:1901363,heterocyclic compound binding (GO:1901363),845,130,88.91,+,1.46,1.09e-06,0.00046399999999999995,molecular_function,heterocyclic compound binding,GO:1901363
+GO:0017076,purine nucleotide binding (GO:0017076),726,110,76.39,+,1.44,2.2100000000000002e-05,0.0033200000000000005,molecular_function,purine nucleotide binding,GO:0017076
+GO:0043168,anion binding (GO:0043168),827,125,87.01,+,1.44,5.76e-06,0.00134,molecular_function,anion binding,GO:0043168
+GO:0035639,purine ribonucleoside triphosphate binding (GO:0035639),689,104,72.49,+,1.43,4.8599999999999995e-05,0.00591,molecular_function,purine ribonucleoside triphosphate binding,GO:0035639
+GO:0032555,purine ribonucleotide binding (GO:0032555),692,104,72.81,+,1.43,6.64e-05,0.006529999999999999,molecular_function,purine ribonucleotide binding,GO:0032555
+GO:0030554,adenyl nucleotide binding (GO:0030554),640,95,67.34,+,1.41,0.00022,0.016,molecular_function,adenyl nucleotide binding,GO:0030554
+GO:0005524,ATP binding (GO:0005524),603,89,63.45,+,1.4,0.00046100000000000004,0.0287,molecular_function,ATP binding,GO:0005524
+GO:0032559,adenyl ribonucleotide binding (GO:0032559),606,89,63.76,+,1.4,0.00061,0.0339,molecular_function,adenyl ribonucleotide binding,GO:0032559
+GO:0003824,catalytic activity (GO:0003824),2076,270,218.43,+,1.24,6.82e-07,0.000436,molecular_function,catalytic activity,GO:0003824

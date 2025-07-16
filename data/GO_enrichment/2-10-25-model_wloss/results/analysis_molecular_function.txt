@@ -1,0 +1,59 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.14083199 Released 2024-11-03
+Analyzed List:	top_q10_wloss_bg_20tw.txt (Saccharomyces cerevisiae)
+Reference List:	bg_20tw.txt (Saccharomyces cerevisiae)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	bg_20tw.txt - REFLIST (4543)	top_q10_wloss_bg_20tw.txt (478)	top_q10_wloss_bg_20tw.txt (expected)	top_q10_wloss_bg_20tw.txt (over/under)	top_q10_wloss_bg_20tw.txt (fold Enrichment)	top_q10_wloss_bg_20tw.txt (raw P-value)	top_q10_wloss_bg_20tw.txt (FDR)
+RNA strand annealing activity (GO:0033592)	5	4	.53	+	7.60	5.55E-04	3.23E-02
+sequence-specific mRNA binding (GO:1990825)	20	11	2.10	+	5.23	1.09E-06	5.56E-04
+RNA polymerase I activity (GO:0001054)	12	6	1.26	+	4.75	6.98E-04	3.80E-02
+ATP-dependent protein folding chaperone (GO:0140662)	21	9	2.21	+	4.07	1.35E-04	1.12E-02
+ligase activity, forming carbon-oxygen bonds (GO:0016875)	37	14	3.89	+	3.60	1.05E-05	2.06E-03
+aminoacyl-tRNA ligase activity (GO:0004812)	37	14	3.89	+	3.60	1.05E-05	1.91E-03
+organic cation transmembrane transporter activity (GO:0015101)	34	11	3.58	+	3.07	4.68E-04	2.85E-02
+carboxylic acid transmembrane transporter activity (GO:0046943)	60	17	6.31	+	2.69	9.33E-05	8.23E-03
+organic acid transmembrane transporter activity (GO:0005342)	62	17	6.52	+	2.61	1.46E-04	1.17E-02
+primary active transmembrane transporter activity (GO:0015399)	55	15	5.79	+	2.59	3.80E-04	2.43E-02
+organic anion transmembrane transporter activity (GO:0008514)	78	21	8.21	+	2.56	3.32E-05	4.24E-03
+proton transmembrane transporter activity (GO:0015078)	60	16	6.31	+	2.53	3.24E-04	2.12E-02
+ligase activity (GO:0016874)	109	29	11.47	+	2.53	1.38E-06	3.91E-04
+oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0016616)	76	20	8.00	+	2.50	7.28E-05	6.89E-03
+oxidoreductase activity, acting on CH-OH group of donors (GO:0016614)	81	21	8.52	+	2.46	6.12E-05	6.52E-03
+unfolded protein binding (GO:0051082)	63	16	6.63	+	2.41	5.88E-04	3.34E-02
+active monoatomic ion transmembrane transporter activity (GO:0022853)	71	18	7.47	+	2.41	2.77E-04	1.97E-02
+inorganic cation transmembrane transporter activity (GO:0022890)	116	28	12.21	+	2.29	1.82E-05	2.91E-03
+oxidoreductase activity (GO:0016491)	278	65	29.25	+	2.22	1.25E-10	3.20E-07
+monoatomic cation transmembrane transporter activity (GO:0008324)	120	28	12.63	+	2.22	5.22E-05	5.80E-03
+monoatomic ion transmembrane transporter activity (GO:0015075)	128	29	13.47	+	2.15	4.98E-05	5.79E-03
+active transmembrane transporter activity (GO:0022804)	138	31	14.52	+	2.13	2.96E-05	3.98E-03
+inorganic molecular entity transmembrane transporter activity (GO:0015318)	141	31	14.84	+	2.09	6.12E-05	6.26E-03
+transmembrane transporter activity (GO:0022857)	337	70	35.46	+	1.97	9.15E-09	1.17E-05
+mRNA binding (GO:0003729)	208	42	21.89	+	1.92	2.26E-05	3.21E-03
+transporter activity (GO:0005215)	373	74	39.25	+	1.89	1.86E-08	1.58E-05
+ATP hydrolysis activity (GO:0016887)	228	42	23.99	+	1.75	2.19E-04	1.65E-02
+ATP-dependent activity (GO:0140657)	299	52	31.46	+	1.65	1.85E-04	1.43E-02
+ribonucleoside triphosphate phosphatase activity (GO:0017111)	303	52	31.88	+	1.63	2.96E-04	2.04E-02
+ribonucleotide binding (GO:0032553)	712	111	74.91	+	1.48	5.37E-06	1.37E-03
+nucleotide binding (GO:0000166)	799	124	84.07	+	1.47	1.22E-06	4.47E-04
+nucleoside phosphate binding (GO:1901265)	799	124	84.07	+	1.47	1.22E-06	3.91E-04
+carbohydrate derivative binding (GO:0097367)	722	112	75.97	+	1.47	6.08E-06	1.30E-03
+heterocyclic compound binding (GO:1901363)	845	130	88.91	+	1.46	1.09E-06	4.64E-04
+purine nucleotide binding (GO:0017076)	726	110	76.39	+	1.44	2.21E-05	3.32E-03
+anion binding (GO:0043168)	827	125	87.01	+	1.44	5.76E-06	1.34E-03
+purine ribonucleoside triphosphate binding (GO:0035639)	689	104	72.49	+	1.43	4.86E-05	5.91E-03
+purine ribonucleotide binding (GO:0032555)	692	104	72.81	+	1.43	6.64E-05	6.53E-03
+adenyl nucleotide binding (GO:0030554)	640	95	67.34	+	1.41	2.20E-04	1.60E-02
+ATP binding (GO:0005524)	603	89	63.45	+	1.40	4.61E-04	2.87E-02
+adenyl ribonucleotide binding (GO:0032559)	606	89	63.76	+	1.40	6.10E-04	3.39E-02
+catalytic activity (GO:0003824)	2076	270	218.43	+	1.24	6.82E-07	4.36E-04
+DNA binding (GO:0003677)	464	27	48.82	-	.55	3.02E-04	2.03E-02
+sequence-specific DNA binding (GO:0043565)	240	10	25.25	-	.40	4.72E-04	2.81E-02
+transcription regulator activity (GO:0140110)	213	7	22.41	-	.31	1.29E-04	1.10E-02
+DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)	135	2	14.20	-	.14	8.07E-05	7.37E-03
+DNA-binding transcription factor activity (GO:0003700)	150	2	15.78	-	.13	1.66E-05	2.84E-03

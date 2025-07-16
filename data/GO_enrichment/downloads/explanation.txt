@@ -1,0 +1,3 @@
+downloaded all on 2/26/25
+https://release.geneontology.org/2024-11-03/ontology/go.obo
+https://current.geneontology.org/annotations/sgd.gaf.gz

@@ -1,0 +1,29 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.14083199 Released 2024-11-03
+Analyzed List:	top_q10_wloss_bg_20tw.txt (Saccharomyces cerevisiae)
+Reference List:	bg_20tw.txt (Saccharomyces cerevisiae)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	bg_20tw.txt - REFLIST (4543)	top_q10_wloss_bg_20tw.txt (478)	top_q10_wloss_bg_20tw.txt (expected)	top_q10_wloss_bg_20tw.txt (over/under)	top_q10_wloss_bg_20tw.txt (fold Enrichment)	top_q10_wloss_bg_20tw.txt (raw P-value)	top_q10_wloss_bg_20tw.txt (FDR)
+mitochondrial nucleoid (GO:0042645)	20	8	2.10	+	3.80	5.67E-04	4.92E-02
+nucleoid (GO:0009295)	20	8	2.10	+	3.80	5.67E-04	4.51E-02
+90S preribosome (GO:0030686)	64	17	6.73	+	2.52	2.23E-04	3.04E-02
+mitochondrial intermembrane space (GO:0005758)	63	16	6.63	+	2.41	5.88E-04	4.31E-02
+preribosome (GO:0030684)	120	27	12.63	+	2.14	1.06E-04	1.69E-02
+mitochondrial inner membrane (GO:0005743)	192	37	20.20	+	1.83	2.50E-04	2.98E-02
+organelle inner membrane (GO:0019866)	206	38	21.67	+	1.75	4.27E-04	4.08E-02
+mitochondrial matrix (GO:0005759)	208	38	21.89	+	1.74	6.84E-04	4.35E-02
+nucleolus (GO:0005730)	247	43	25.99	+	1.65	8.41E-04	4.72E-02
+ribonucleoprotein complex (GO:1990904)	326	55	34.30	+	1.60	3.31E-04	3.50E-02
+mitochondrial envelope (GO:0005740)	344	56	36.19	+	1.55	6.62E-04	4.51E-02
+intracellular organelle lumen (GO:0070013)	832	125	87.54	+	1.43	8.17E-06	3.90E-03
+membrane-enclosed lumen (GO:0031974)	832	125	87.54	+	1.43	8.17E-06	2.60E-03
+organelle lumen (GO:0043233)	832	125	87.54	+	1.43	8.17E-06	1.95E-03
+mitochondrion (GO:0005739)	958	141	100.80	+	1.40	4.56E-06	4.35E-03
+nuclear protein-containing complex (GO:0140513)	539	35	56.71	-	.62	7.45E-04	4.44E-02
+chromosome (GO:0005694)	420	20	44.19	-	.45	1.74E-05	3.33E-03

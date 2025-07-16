@@ -1,0 +1,9 @@
+,sample,edit_pool,time,comp_pool
+0,T0A,A,start,A
+1,T0B,A,start,B
+2,T0C,B,start,C
+3,T0D,B,start,D
+4,T5A,A,end,A
+5,T5B,A,end,B
+6,T5C,B,end,C
+7,T5D,B,end,D
