@@ -21,8 +21,15 @@ In order to repeat the evaluation process, run `model/generate_esm_rep_scer.py` 
 Then run `model/evaluate.py` to load and evaluate both models on _S. cerevisiae_. Next, call `model/combine_results.py` in order to create `data/results/model_results.csv`. 
 
 ### Replicating pooled competition analysis
-In our paper, we describe a library ..... 
+A library of synonymous yeast variants was grown together in a pooled competition for 81 generations, with two editing replicates (AB and CD) and two experimental replicates per editing replidate (A, B, C, and D). The library was sequenced at the start (T0) and end (T5) of the competition. Raw sequencing data is obtainable from ___. Raw sequencing data was processed using `pooled_competition/process_illumina.py`. The raw read counts per variant per sample are stored in `data/pooled_comp/counts_db.csv`.
+DESeq2 was used to call significantly advantageous or deleterious variants. This step can be replicated via `pooled_competition/run_deseq2.py`, an requires DESeq2 and R to be installed.
+The final results file ('data/results/pooled_comp_results.csv`) is created using `pooled_competition/combine_results.py`.
 
 ## Training the model
-Trained model weights are saved in `data/models`. In order to replicate the model training process, first generate an HDF5 file containing ESM2 representations of all genes in the training dataset using `model\process_data.py`. 
-Model training can be replicated via `model\train_model.py`. Model settings and parameters can be changed within the file. 
+Trained model weights are saved in `data/models`. In order to replicate the model training process, first generate an HDF5 file containing ESM2 representations of all genes in the training dataset using `model/process_data.py`. 
+Model training can be replicated via `model/train_model.py`. Model settings and parameters can be changed within the file. 
+
+## Additional data
+Plasmids and oligo sequences can be found under `data/plasmids_and_oligos`. OD measurements from the pooled competition can be found under `data/pooled_comp/pooled_comp_od.csv`.
+
+
