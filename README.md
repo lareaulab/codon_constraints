@@ -1,3 +1,7 @@
+# Protein language models reveal evolutionary constraints on synonymous codon choice
+
+This repository contains all code used in data analysis, figure creation, and model training and evaluation for the codon constraints project, currently available as a preprint at https://www.biorxiv.org/content/10.1101/2025.08.05.668603v1.
+
 ## Setup and installation
 Dependencies are listed in the codon_env.yml file.
 
