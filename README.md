@@ -8,8 +8,9 @@ Dependencies are listed in the codon_env.yml file.
 A conda environment containing required packages can be set up via:
 
 ```bash
-conda env create -f codon_env.yml
+conda create --name codon_env --file spec_file
 conda activate codon_env
+pip3 install -r requirements.txt
 ```
 
 ## Replicating Figures and Analysis
