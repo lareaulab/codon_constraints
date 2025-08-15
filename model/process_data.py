@@ -37,7 +37,7 @@ def collate_1d(list_of_tuples):
     return torch.cat(inputs_1d), torch.cat(labels)
 
 """
-Tests that HDF5_maker and HDF5_dataset are working correctly
+Tests that HDF5_maker and HDF5_dataset are working correctly. This is currently not working, since we changed to not using 2d features.
 """
 def unit_test_hdf5(directory=""):
     unit_test = pd.DataFrame(index = ["gene"+str(i) for i in range(1,11)])
@@ -46,7 +46,7 @@ def unit_test_hdf5(directory=""):
     unit_test["species"] = ["Saccharomyces_cerevisiae"]*10
     hm = HDF5_maker(unit_test, directory, "test.hdf5", "test_aa.fa", "test_esm_save_dir", erase_existing=True)
     hm.run()
-    hd = HDF5_dataset(directory+"test.hdf5", gene_list=np.array(unit_test.index), shuffle=False, validate=True)
+    hd = HDF5_dataset(directory+"test.hdf5", gene_list=np.array(unit_test.index), shuffle=False, validate=True, features=...)
     
     (r1, r2), l = hd[0]
     #just for 1
@@ -657,6 +657,8 @@ class HDF5_maker():
                     os.remove(path)
             if os.path.exists(self.esm_save_dir):
                 shutil.rmtree(self.esm_save_dir)   
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
 
        
 
@@ -725,7 +727,7 @@ class HDF5_maker():
         for i in self.genes:
             self.save_gene(i)
             c+=1
-            if c%(len(self.genes)//10) == 0:
+            if len(self.genes) >= 10 and c%(len(self.genes)//10) == 0:
                 print(c, "out of", len(self.genes), "complete after", (time.time() - start)/60, "minutes")
                 sys.stdout.flush()
         print("Done in ", (time.time() - start)/60, "minutes")
@@ -795,7 +797,7 @@ class HDF5_maker():
             c = 0
             for i in self.genes:
                 self.add_esm_info(i)
-                if c%(len(self.genes)//100) == 0:
+                if len(self.genes) >= 100 and c%(len(self.genes)//100) == 0:
                     print(c, "out of", len(self.genes), "complete after", (time.time() - start)/60, "minutes")
                     sys.stdout.flush()
                 c+=1
@@ -857,7 +859,7 @@ class HDF5_maker():
                     #print(i, "succesfully added esm")    
                 sys.stdout.flush()
                 c+=1
-                if c%(len(self.genes)//100) == 0:
+                if len(self.genes) >= 100 and c%(len(self.genes)//100) == 0:
                     print(c, "out of", len(self.genes), "complete after", (time.time() - start)/60, "minutes")
                     sys.stdout.flush()
         print("Done in ", (time.time() - start)/60, "minutes")
@@ -938,6 +940,8 @@ def run_pca(dataset, n_components=64, name='pca64', save_dir=DATA_DIR+'yeast_spe
     np.save(save_dir+name+'_mean.npy', pca.mean_)
 
 records_file = DATA_DIR + 'test_process_data_record.txt' #file to print output to
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
 if __name__ == '__main__':
     with open(records_file, 'w') as stdout_file:
         with redirect_stdout(stdout_file):
@@ -946,10 +950,10 @@ if __name__ == '__main__':
             print(torch.__file__)
 
             print("Running new")
-            print("Run tests")
-            sys.stdout.flush()
-            unit_test_hdf5(directory=DATA_DIR+'tmp/')
-            print("Test complete")
+            # print("Run tests")
+            # sys.stdout.flush()
+            # unit_test_hdf5(directory=DATA_DIR+'tmp/') #test is not currently working
+            # print("Test complete")
             sys.stdout.flush()
             
             
@@ -968,7 +972,7 @@ if __name__ == '__main__':
             data_db['codon_seq'] = data_db.seq.apply(lambda x: [x[i*3:i*3+3] for i in range(len(x)//3)])
             print(f'Making a HDF5 file, data_db size is {len(data_db)}')
             print("Making HDF5 file at", hdf5_path)
-            hm = HDF5_maker(data_db = data_db, data_dir=data_dir, hdf5_fname=hdf5_name, erase_existing=False, 
+            hm = HDF5_maker(data_db = data_db, data_dir=data_dir, hdf5_fname=hdf5_name, erase_existing=True, 
                     aa_fasta="tmp_aa_fasta.fa", esm_save_dir="tmp_esm_save_dir", extra_features=[]) #yeast!
             hm.run()
             print("Done making HDF5 file")

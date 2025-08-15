@@ -18,7 +18,7 @@ from sklearn.linear_model import LogisticRegression
 from process_data import HDF5_dataset, collate_1d, FEATURE_SETS_1D
 
 DATA_DIR = '../data/model_training/'
-HDF5_NAME = DATA_DIR + 'many_yeast.hdf5'
+HDF5_NAME = DATA_DIR + 'tmp/many_yeast.hdf5' #need to run process_data.py first to create this hdf5 file
 
 #currently binary
 class GCELoss(nn.Module):
@@ -1126,9 +1126,11 @@ def run_kfold(dataset_params, train_params, db_clusters, lazy=False):
             model = Linear(input_1d_shape=input_1d_shape)
         print(f"Model has {count_parameters(model)} trainable parameters")
         print('Starting training')
-        test_loss, test_acc = train_network(model, trainloader, testloader, task=task, epochs=epochs, 
+        test_output = train_network(model, trainloader, testloader, task=task, epochs=epochs, 
                                                                            loss_function=loss_function, save_dir=fold_save_dir, 
                                                 restrict_size=restrict_size, pos_per_gene=pos_per_gene, return_test=True, eval=eval)
+        test_loss = test_output[0]
+        test_acc = test_output[1]
         print(f'Finished training k_fold. Final test loss is {test_loss} and final test acc is {test_acc}')
         all_test_loss.append(test_loss)
         all_test_acc.append(test_acc)
